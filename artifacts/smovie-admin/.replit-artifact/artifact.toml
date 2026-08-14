@@ -1,0 +1,24 @@
+kind = "mobile"
+previewPath = "/"
+title = "SMovie Admin"
+description = "A movie and streaming catalog administration app imported from the provided GitHub repository, focused on managing content, notifications, and OTT availability."
+version = "1.0.0"
+id = "artifacts/smovie-admin"
+router = "expo-domain"
+
+[[services]]
+name = "expo"
+ensurePreviewReachable = "/status"
+paths = [ "/" ]
+localPort = 25204
+
+[services.development]
+run = "pnpm --filter @workspace/smovie-admin run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/smovie-admin", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/smovie-admin", "run", "serve" ]
+
+[services.env]
+PORT = "25204"
+BASE_PATH = "/"

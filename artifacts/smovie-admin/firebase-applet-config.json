@@ -1,0 +1,11 @@
+{
+  "_note": "apiKey is intentionally blank here — it is injected at bundle time from the EXPO_PUBLIC_GOOGLE_API_KEY Replit Secret (Metro only inlines EXPO_PUBLIC_* env vars).",
+  "apiKey": "AIzaSyBsBGxWbL6DIgMlND3eUAVNRHsBH4VKquo",
+  "authDomain": "v-cloud-storage.firebaseapp.com",
+  "databaseURL": "https://v-cloud-storage-default-rtdb.asia-southeast1.firebasedatabase.app",
+  "projectId": "v-cloud-storage",
+  "storageBucket": "v-cloud-storage.firebasestorage.app",
+  "messagingSenderId": "367814757584",
+  "appId": "1:367814757584:web:83848f9cbbf07006a1a2d5",
+  "measurementId": "G-KXZ5S9V004"
+}

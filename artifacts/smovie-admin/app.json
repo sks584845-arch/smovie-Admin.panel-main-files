@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "owner": "soyel011",
+    "name": "sMovie Admin",
+    "slug": "workspace",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "smovie-admin",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080808"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.smovie.admin",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#080808"
+      }
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro",
+      "shortName": "sMovie",
+      "themeColor": "#E50914",
+      "backgroundColor": "#080808"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": false
+    },
+    "extra": {
+      "firebaseApiKey": "",
+      "tmdbApiKey": "",
+      "_note": "apiKey comes from EXPO_PUBLIC_GOOGLE_API_KEY secret (inlined by Metro). tmdbApiKey comes from EXPO_PUBLIC_TMDB_API_KEY secret."
+    }
+  }
+}

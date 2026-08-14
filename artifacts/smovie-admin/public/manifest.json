@@ -1,0 +1,17 @@
+{
+  "name": "sMovie Admin",
+  "short_name": "sMovie",
+  "description": "Admin panel for managing the sMovie OTT content library.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080808",
+  "theme_color": "#E50914",
+  "icons": [
+    { "src": "/assets/icon.png",          "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/assets/adaptive-icon.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/favicon.png",       "sizes": "64x64",   "type": "image/png" }
+  ],
+  "categories": ["entertainment", "productivity"],
+  "screenshots": []
+}
